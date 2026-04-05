@@ -1,0 +1,8 @@
+psutil
+scikit-learn
+numpy
+PyQt6
+pyqtgraph
+pandas
+scipy
+
