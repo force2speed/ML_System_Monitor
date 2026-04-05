@@ -105,7 +105,7 @@ Experimentally determined: 30-second windows over-react to transient spikes; 10-
 
 ## 📁 Project Structure
 ```
-system-monitor/
+ML_System_Monitor/
 │
 ├── docs/                      # Dashboard screenshots and paper figures
 ├── main.py                    # Application entry point
@@ -116,7 +116,7 @@ system-monitor/
 └── README.md                  # This file
 ```
 
-> `build/`, `dist/`, and `venv/` are excluded via `.gitignore`. The compiled executable is available in the [Releases Tab](https://github.com/force2speed/system-monitor/releases) and on [Zenodo](https://doi.org/10.5281/zenodo.19427836).
+> `build/`, `dist/`, and `venv/` are excluded via `.gitignore`. The compiled executable is available in the [Releases Tab](https://github.com/force2speed/ML_System_Monitor/releases) and on [Zenodo](https://doi.org/10.5281/zenodo.19427836).
 
 ---
 
@@ -126,8 +126,8 @@ system-monitor/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/force2speed/system-monitor.git
-cd system-monitor
+git clone https://github.com/force2speed/ML_System_Monitor.git
+cd ML_System_Monitor
 ```
 
 2. **Install dependencies:**
@@ -165,7 +165,7 @@ python stress_test.py
 
 For reviewers who do not wish to configure a Python environment:
 
-1. Navigate to the [**Releases Tab**](https://github.com/force2speed/system-monitor/releases).
+1. Navigate to the [**Releases Tab**](https://github.com/force2speed/ML_System_Monitor/releases).
 2. Download `ML_System_Monitor.exe` from the latest release.
 3. Run as **Administrator** (required for full disk I/O telemetry access).
 
