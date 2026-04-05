@@ -2,7 +2,7 @@
 
 **A Real-Time Performance Analysis Tool with Adaptive Anomaly Detection**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19427612.svg)](https://doi.org/10.5281/zenodo.19427612)
+[![DOI](https://zenodo.org/badge/1201901408.svg)](https://doi.org/10.5281/zenodo.19427836)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
@@ -108,7 +108,6 @@ Experimentally determined: 30-second windows over-react to transient spikes; 10-
 system-monitor/
 │
 ├── docs/                      # Dashboard screenshots and paper figures
-├── dist/                      # Compiled executable (ML_System_Monitor.exe)
 ├── main.py                    # Application entry point
 ├── stress_test.py             # Stress testing script (CPU, RAM, Disk I/O)
 ├── ML_System_Monitor.spec     # PyInstaller build specification
@@ -117,7 +116,7 @@ system-monitor/
 └── README.md                  # This file
 ```
 
-> `build/` and `venv/` are excluded via `.gitignore` and not tracked in this repository.
+> `build/`, `dist/`, and `venv/` are excluded via `.gitignore`. The compiled executable is available in the [Releases Tab](https://github.com/force2speed/system-monitor/releases) and on [Zenodo](https://doi.org/10.5281/zenodo.19427836).
 
 ---
 
@@ -170,7 +169,7 @@ For reviewers who do not wish to configure a Python environment:
 2. Download `ML_System_Monitor.exe` from the latest release.
 3. Run as **Administrator** (required for full disk I/O telemetry access).
 
-> Packaged with PyInstaller and available on Zenodo: [10.5281/zenodo.19427612](https://doi.org/10.5281/zenodo.19427612) — no Python installation required.
+> Packaged with PyInstaller and available on Zenodo: [10.5281/zenodo.19427836](https://doi.org/10.5281/zenodo.19427836) — no Python installation required.
 
 ---
 
@@ -229,8 +228,8 @@ If you use this software or reference this work, please cite:
                Analysis Tool with Adaptive Anomaly Detection},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19427612},
-  url       = {https://doi.org/10.5281/zenodo.19427612}
+  doi       = {10.5281/zenodo.19427836},
+  url       = {https://doi.org/10.5281/zenodo.19427836}
 }
 ```
 
